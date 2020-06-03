@@ -12,7 +12,15 @@ rFName = input("Enter first name: ")
 rLName = input("Enter last name: ")
 rEmail = input("Enter email:")
 
-def signPetition(link):
+option = input("Do you want to sign all petitions in list? enter y or n : ")
+if option == "n":
+    rangeStart = int(input("link start index: "))
+    rangeEnd = int(input("link end index (there are " + str(len(links)) + " links): "))
+else:
+    rangeStart = 0
+    rangeEnd = len(links)
+
+def signPetition(link, i):
         driver = wd.Chrome(ChromeDriverManager().install())
         driver.get(link)
         first = driver.find_element_by_name("firstName")
@@ -26,15 +34,15 @@ def signPetition(link):
         display.click()
         wait = WebDriverWait(driver, 6000)
         wait.until(lambda driver: driver.current_url != link)
-        print("success")
+        print("success for link " + str(i))
         driver.delete_all_cookies()
         driver.quit()
 
 errors = []
 
-for i in range(35, 37):
+for i in range(rangeStart, rangeEnd):
     try:
-        signPetition(links[i])
+        signPetition(links[i], i)
     except:
         errors.append(links[i])
         print("There was an error with this link. All unsigned links will be printed at the end.")
