@@ -4,7 +4,7 @@ This will automatically open links + fill in your info into change.org petitions
 
 (creds to [ally.wiki](www.ally.wiki) for the list of petitions).
 
-### Instructions
+## Instructions
 - You should have python installed (if you don't already click [here](https://www.python.org/downloads/).
 - Download this code
   - option 1: click the green "Clone or download" button on the upper-right, then "Download ZIP".
