@@ -2,9 +2,6 @@ from selenium import webdriver as wd
 from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 from links import *
-from faker import Faker
-
-fake = Faker()
 
 links = get_links()
 
