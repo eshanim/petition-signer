@@ -2,7 +2,7 @@
 
 This script will automatically open links + fill in your info into change.org petitions (pulled from the `links.py` file) so all you have to do is submit (and maybe do the recaptcha)!
 
-(creds to [ally.wiki](www.ally.wiki) for the list of petitions)
+(creds to [ally.wiki](https://docs.google.com/document/d/e/2PACX-1vSrT26HMWX-_hlLfiyy9s95erjkOZVJdroXYkU-miaHRk58duAnJIUWKxImRkTITsYhwaFkghS8sfIF/pub) for the list of petitions)
 
 Side note for anyone wondering why the submission wasn't automated as well: change.org starts putting recaptchas after the first few signed petitions and automating those are a lot harder (if anyone knows a way to get around this, let me know!)
 
@@ -30,6 +30,7 @@ Side note for anyone wondering why the submission wasn't automated as well: chan
   - if you want to stop before it's done:
     - close your terminal (terminate the whole window)
   - if there was any errors with any links, they'll be listed at the end so you can manually sign them
+  - if you're getting a "try again" error on change.org, note the number of the last petition you signed (printed on terminal), and try again later using that number when it asks for `link start index`
 
   
 ## Notes
