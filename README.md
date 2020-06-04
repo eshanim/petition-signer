@@ -2,7 +2,9 @@
 
 This script will automatically open links + fill in your info into change.org petitions (pulled from the `links.py` file) so all you have to do is submit (and maybe do the recaptcha)!
 
-(creds to [ally.wiki](www.ally.wiki) for the list of petitions).
+(creds to [ally.wiki](www.ally.wiki) for the list of petitions)
+
+Side note for anyone wondering why the submission wasn't automated as well: change.org starts putting recaptchas after the first few signed petitions and automating those are a lot harder (if anyone knows a way to get around this, let me know!)
 
 ## Instructions
 - You should have python installed (if you don't already click [here](https://www.python.org/downloads/).
