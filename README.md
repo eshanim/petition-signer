@@ -25,7 +25,7 @@ Side note for anyone wondering why the submission wasn't automated as well: chan
   - if you want all the links to open, enter `y` (might cause change.org to block your requests for a while, so i recommend the option below)
   - if you only want to sign some portion of the links (**recommended**: see notes below) , enter `n`
     - enter a starting number for the links 
-    - enter a ending number for the links (there are currently 65)
+    - enter a ending number for the links (there are currently 91)
   - selenium will open a chrome browser with the link and type in your information
   - you have to click on the submit button
   - once you click submit, the program will close the window + open the next link
