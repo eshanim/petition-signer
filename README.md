@@ -1,4 +1,4 @@
-# Sign change.org petitions!
+# Petition Signing Bot
 
 This script will automatically open links + fill in your info into change.org petitions (pulled from the `links.py` file) so all you have to do is submit (and maybe do the recaptcha)!
 
@@ -39,6 +39,7 @@ Side note for anyone wondering why the submission wasn't automated as well: chan
   
 ## Notes
 - It may be easier to run only a few at a time (so only enter range 0-15 first, and then do 15-30 later, etc.)
+- Another really effective way to help is sending emails (check out this [Activism Mail Bot](https://github.com/alandgton/activism-mail-bot)!)
 
 ## Feedback
 - If anyone has more petitions to add, please let me know!
